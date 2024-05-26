@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.138" />
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/drawable/btnshape.xml" value="0.129" />
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/drawable/btnstroke.xml" value="0.138" />
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/drawable/btnwin.xml" value="0.138" />
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/drawable/circlesolid.xml" value="0.138" />
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.138" />
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/layout/activity_first.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/layout/activity_main.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/layout/activity_quiz.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/layout/activity_second.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/layout/activity_splash_screen.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/layout/win_dialog_layout.xml" value="0.2234375" />
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.138" />
+        <entry key="..\:/Users/JAMAL/AndroidStudioProjects/QUIZ_APP/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1045" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

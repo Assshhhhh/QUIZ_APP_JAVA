@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    android:background="#08FFFF00"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardHolder"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-90dp"
+        app:cardBackgroundColor="#C6ADFF"
+        app:cardCornerRadius="100dp">
+
+        <TextView
+            android:id="@+id/wlcmText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:elevation="5dp"
+            android:fontFamily="@font/bluecherries"
+            android:text="Let's start the Quiz"
+            android:textAlignment="center"
+            android:textColor="#69508E"
+            android:textSize="50sp"
+
+            tools:ignore="RtlCompat" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/highScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wlcmText"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:text="Highest Scores: 00"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textColor="#69508E"
+        android:textSize="24sp" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/cardDiff"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/cardHolder"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="Choose Difficulty: "
+                android:textColor="#69508E"
+
+                />
+
+        <Spinner
+            android:id="@+id/spinner_difficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/cardCateg"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="5dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@+id/cardDiff"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="Choose Category: "
+            android:textColor="#69508E"
+
+            />
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_difficulty"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/btnshape"
+        android:elevation="2dp"
+        android:padding="5dp"
+        android:text="Start Quiz"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
